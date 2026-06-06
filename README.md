@@ -26,6 +26,9 @@ HiddenEye scans your chosen path and reveals hidden files, suspicious patterns, 
 | Smart Recursion | Deep scan with system-folder protection |
 
 
+---
+
+
 
 ## Download & Run
 
