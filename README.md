@@ -2,7 +2,7 @@
 
 > **Uncover what’s hiding in plain sight.**
 
-HiddenEye is a cross-platform forensic file discovery tool built for cybersecurity analysts, red-teamers, and curious power users. It reveals hidden files, suspicious patterns, and data anomalies that standard file explorers ignore — all through an intuitive desktop interface.
+HiddenEye scans your chosen path and surfaces everything suspicious in a clean, dark-themed dashboard. Toggle detection modules on/off, adjust recursion depth, and filter results by category — all in real time.
 
 ---
 
@@ -31,24 +31,6 @@ HiddenEye is a cross-platform forensic file discovery tool built for cybersecuri
 | Linux | `HiddenEye-linux-x64.tar.gz` | ✅ Native |
 
 > ⚠️ **Note:** macOS Gatekeeper and Windows SmartScreen may show a warning on first launch because HiddenEye is not code-signed. This is expected for independent security tools.
-
----
-
-## 🚀 Quick Start
-
-1. **Download** the latest release for your platform.
-2. **Extract** the archive.
-3. **Run**:
-   - **Windows**: `HiddenEye.exe`
-   - **macOS**: `HiddenEye.app`
-   - **Linux**: `./HiddenEye`
-4. **Select** a target folder and hit **Scan**.
-
----
-
-## 📸 Preview
-
-HiddenEye scans your chosen path and surfaces everything suspicious in a clean, dark-themed dashboard. Toggle detection modules on/off, adjust recursion depth, and filter results by category — all in real time.
 
 ---
 
