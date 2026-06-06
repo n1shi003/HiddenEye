@@ -2,43 +2,40 @@
 
 > **Uncover what’s hiding in plain sight.**
 
-HiddenEye scans your chosen path and surfaces everything suspicious in a clean, dark-themed dashboard. Toggle detection modules on/off, adjust recursion depth, and filter results by category — all in real time.
+HiddenEye scans your chosen path and reveals hidden files, suspicious patterns, and data anomalies that standard file explorers ignore — all through an intuitive desktop interface.
 
 ---
 
-## ✨ Features
+## What It Finds
 
-- 🔍 **Hidden File Detection** — Uncovers Windows hidden attributes (`attrib:H`), and macOS `chflags:hidden` items.
-- 🧩 **Double-Extension Spoofing** — Flags dangerous files disguised as safe ones (e.g., `photo.jpg.exe`).
-- 🎭 **RTL Override Detection** — Spots Unicode bidirectional tricks used to spoof filenames.
-- 🔐 **Sensitive Keyword Scan** — Auto-detects filenames containing `password`, `wallet`, `id_rsa`, `.env`, `token`, and more.
-- 🧪 **Magic-Byte Mismatch** — Identifies files whose content doesn't match their extension (e.g., a ZIP named `.jpg`).
-- 🌡 **Entropy Analysis** — Highlights high-randomness files that may be encrypted, packed, or obfuscated.
-- 🖼 **Steganography Detection** — Reveals data appended after JPEG/PNG EOF markers.
-- 🗂 **NTFS ADS Scanner** *(Windows)* — Discovers Alternate Data Streams hiding behind innocent files.
-- 🧭 **Regex Pattern Search** — Hunt custom filename patterns across any directory.
-- 📂 **Smart Recursion** — Scan deep with configurable depth limits, while safely skipping system folders.
-- 🛡 **System Folder Protection** — Automatically avoids critical OS directories to prevent accidental damage.
+| Detection | What It Does |
+|-----------|--------------|
+| Hidden Files | Dotfiles, `attrib:H` (Win), `chflags:hidden` (mac) |
+| Double-Extension Spoof | `photo.jpg.exe` style traps |
+| RTL Override | Unicode bidirectional filename tricks |
+| Magic-Byte Mismatch | File content ≠ extension (e.g. ZIP pretending to be JPG) |
+| High Entropy | Encrypted / packed / obfuscated data |
+| Steganography | Data appended after JPEG/PNG EOF |
+| Sensitive Keywords | `password`, `wallet`, `id_rsa`, `.env`, tokens, etc. |
+| NTFS ADS *(Win)* | Alternate Data Streams |
+| Regex Search | Hunt custom filename patterns |
+| Smart Recursion | Deep scan with system-folder protection |
+
+## Download & Run
+
+| OS | File | Command |
+|--|--|--|
+| Windows | `HiddenEye-win32-x64.zip` | Run `HiddenEye.exe` |
+| macOS | `HiddenEye-darwin-x64.zip` | Open `HiddenEye.app` |
+| Linux | `HiddenEye-linux-x64.tar.gz` | `./HiddenEye` |
+
+> ⚠️ Windows SmartScreen / macOS Gatekeeper may warn on first launch — this is normal for unsigned indie security tools.
 
 ---
 
-## 🖥 Platform Support
+## Safe Use
 
-| Platform | Package | Status |
-|----------|---------|--------|
-| Windows | `HiddenEye-win32-x64.zip` | ✅ Native |
-| macOS | `HiddenEye-darwin-x64.zip` | ✅ Native |
-| Linux | `HiddenEye-linux-x64.tar.gz` | ✅ Native |
-
-> ⚠️ **Note:** macOS Gatekeeper and Windows SmartScreen may show a warning on first launch because HiddenEye is not code-signed. This is expected for independent security tools.
-
----
-
-## 🛡️ Safe & Ethical Use
-
-HiddenEye is designed for **authorized security analysis** on systems you own or have explicit permission to audit. It never modifies, deletes, or exfiltrates files — it only reads metadata and reports findings.
-
-> **Always obtain proper authorization before scanning any system you do not own.**
+**For authorized analysis only.** HiddenEye is read-only — it never modifies, deletes, or exfiltrates files.
 
 ---
 
@@ -47,5 +44,7 @@ HiddenEye is designed for **authorized security analysis** on systems you own or
 Check the [Releases](../../releases) page for the latest builds and changelogs.
 
 ---
+
+*Built for the cybersecurity community.*
 
 *Built with precision for the cybersecurity community.*
