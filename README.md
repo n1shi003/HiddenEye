@@ -6,11 +6,12 @@ HiddenEye scans your chosen path and reveals hidden files, suspicious patterns, 
 
 ---
 
+
 ## What It Finds
 
 | Detection | What It Does |
 |-----------|--------------|
-| Hidden Files | Dotfiles, `attrib:H` (Win), `chflags:hidden` (mac) |
+| Hidden Files | `attrib:H` (Win), `chflags:hidden` (mac) |
 | Double-Extension Spoof | `photo.jpg.exe` style traps |
 | RTL Override | Unicode bidirectional filename tricks |
 | Magic-Byte Mismatch | File content ≠ extension (e.g. ZIP pretending to be JPG) |
@@ -20,6 +21,8 @@ HiddenEye scans your chosen path and reveals hidden files, suspicious patterns, 
 | NTFS ADS *(Win)* | Alternate Data Streams |
 | Regex Search | Hunt custom filename patterns |
 | Smart Recursion | Deep scan with system-folder protection |
+
+
 
 ## Download & Run
 
@@ -33,11 +36,13 @@ HiddenEye scans your chosen path and reveals hidden files, suspicious patterns, 
 
 ---
 
+
 ## Safe Use
 
 **For authorized analysis only.** HiddenEye is read-only — it never modifies, deletes, or exfiltrates files.
 
 ---
+
 
 ## 📦 Releases
 
