@@ -10,7 +10,7 @@ HiddenEye scans your chosen path and reveals hidden files, suspicious patterns, 
 
 
 
-## Features
+## Features✨
 
 | Detection | What It Does |
 |-----------|--------------|
@@ -44,6 +44,7 @@ HiddenEye scans your chosen path and reveals hidden files, suspicious patterns, 
 
 **For authorized analysis only.** HiddenEye is read-only — it never modifies, deletes, or exfiltrates files.
 
+
 ---
 
 
@@ -55,4 +56,3 @@ Check the [Releases](../../releases) page for the latest builds and changelogs.
 
 *Built for the cybersecurity community.*
 
-*Built with precision for the cybersecurity community.*
