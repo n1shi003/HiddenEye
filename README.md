@@ -4,10 +4,13 @@
 
 HiddenEye scans your chosen path and reveals hidden files, suspicious patterns, and data anomalies that standard file explorers ignore — all through an intuitive desktop interface.
 
+
+
 ---
 
 
-## What It Finds
+
+## Features
 
 | Detection | What It Does |
 |-----------|--------------|
