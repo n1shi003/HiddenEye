@@ -31,12 +31,13 @@ HiddenEye scans your chosen path and reveals hidden files, suspicious patterns, 
 
 ## 📸 Screenshots
 
-### Scan Results #1
-![Scan Results 1](images/demo-01.png)
+<p align="center">
+  <img src="images/demo-01.png" width="800">
+</p>
 
-### Scan Results #2
-![Scan Results 2](images/demo-02.png)
-
+<p align="center">
+  <img src="images/demo-02.png" width="800">
+</p>
 
 ---
 
