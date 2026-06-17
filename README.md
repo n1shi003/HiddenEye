@@ -29,6 +29,19 @@ HiddenEye scans your chosen path and reveals hidden files, suspicious patterns, 
 ---
 
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="images/demo-01.png" width="800">
+</p>
+
+<p align="center">
+  <img src="images/demo-02.png" width="800">
+</p>
+
+
+---
+
 
 ## Download & Run
 
